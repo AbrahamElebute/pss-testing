@@ -1,0 +1,29 @@
+.Welcome {
+    color: blue;
+    font-weight: bold !important;
+}
+
+.slog {
+    position: absolute;
+    top: 60px;
+    margin-left: 10px;
+    color: red;
+    font-size: 10px;
+}
+
+.Box {
+    height: 200px;
+}
+
+@media all and (max-width: 900px) {
+    .adjust {
+        /* background-color: rgba(0, 0, 255, 0.2); */
+        padding-top: 50px;
+        box-shadow: 2px 2px 5px black;
+    }
+    .slog {
+        position: absolute;
+        top: 30px;
+        margin-left: 13px;
+    }
+}
